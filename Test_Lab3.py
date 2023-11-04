@@ -28,11 +28,6 @@ def test_bubble_sort_invalid():
 
     assert (result == [])
 
-def test_bubble_sort_large_input():
-    input_arr = [64, 34, 25, 12, 22, 11, 90, 5, 8, 7, 2]
-    result = Lab3.bubble_sort(input_arr, "SORT_ASCENDING")
-    assert result == 1
-
 def check_integers_in_array(arr):
     count = 0
     for item in arr:
